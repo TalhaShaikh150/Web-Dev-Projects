@@ -1,0 +1,77 @@
+    @font-face{
+        src: url(/Images/SpeedyRegular-7BLoE.ttf);
+        font-family: Space;
+        }
+        html {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.8); /* Black with 50% transparency */
+            z-index: 2; /* Ensure the overlay is on top of the video */
+        }
+    body{
+            margin: 0px;
+        color: rgb(255, 255, 255);
+        height: 81vh;
+        overflow: hidden;   
+        }
+        
+    .hero{
+        position: absolute;
+        top: 20%;
+        left: 49%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+            display: block;
+        margin: 0 auto 0 auto;
+        }
+
+    .space-button{
+        cursor: pointer;
+        font-family: Space;
+        padding: 10px 20px 10px 20px;   
+        font-size: 16px;
+        border-radius: 10px;
+        border: 2px solid black;
+        margin-top: -50px;
+        }
+
+    .space-button:hover{
+        background: transparent;
+        color: white;
+        transition: 0.5s;
+    }
+        
+    h1{ 
+        cursor: pointer;
+        font-size: 40px;
+        }
+
+    h3{
+        letter-spacing: 2px;
+        cursor: pointer;
+        font-size: 25px;
+        }
+
+    #background{
+        height: auto;
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    img {
+        margin-top: 100px;
+        z-index: 1;
+        width: 100px;
+        height: 80px;
+    }
+
+
+    span{
+        text-decoration: underline;
+    
+    }
