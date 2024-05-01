@@ -1,1 +1,1 @@
-google-clone-talha.netlify.app
+https://google-clone-talha.netlify.app
