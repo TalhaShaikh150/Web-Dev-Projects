@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now - Northern Pakistan Tours</title>
+    <link rel="stylesheet" href="Book.css">
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a  href="/index.html">Home</a></li>
+            <li><a href="/About.html">More</a></li>
+            <li><a class="active" href="/Book.html">Book Now</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>Book Your Northern Pakistan Adventure</h1>
+        <form action="#" method="post">
+            <div class="step">
+                <h2>Step 1: Choose Your Adventure</h2>
+                <label><input type="radio" name="adventure" value="trekking"> Himalayan Trekking</label>
+                <label><input type="radio" name="adventure" value="culture"> Cultural Immersion</label>
+                <label><input type="radio" name="adventure" value="climbing"> Mountain Climbing</label>
+                <label><input type="radio" name="adventure" value="safari"> Safari Adventure</label>
+            </div>
+            <div class="step">
+                <h2>Step 2: Select Your Dates</h2>
+                <input type="date" name="dates" required>
+            </div>
+            <div class="step">
+                <h2>Step 3: Choose Your Package</h2>
+                <select name="package" required>
+                    <option value="standard">Standard Package</option>
+                    <option value="deluxe">Deluxe Package</option>
+                    <option value="custom">Custom Package</option>
+                </select>
+            </div>
+            <div class="step">
+                <h2>Step 4: Personal Information</h2>
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+            </div>
+            <div class="step">
+                <h2>Step 5: Payment</h2>
+                <!-- Payment options would go here -->
+            </div>
+            <div class="step">
+                <h2>Step 6: Confirmation</h2>
+                <button type="submit">Confirm Booking</button>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+</html>
